@@ -242,6 +242,7 @@ int main() {
 
             int num_tries = input.length() + 3;
             cout << "The word that the computer gave was " << input.length() << " letters long." << endl;
+            cout << "Updated Word: " << hidden_word << endl;
             while ((num_tries > 0) && (game_over == false)) {
                 char letter;
                 cout << "If you would like to guess the word, press 1." << endl;
