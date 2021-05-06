@@ -39,13 +39,13 @@
         Khi đó, game kết thúc và người chơi bấm phím bất kì để thoát game.
 
 # IV: Các hàm sử dụng trong Hangman Olympia:
-1. int countLines(vector<string> words): Là hàm đếm số từ trong file từ có sẵn (dùng để chia rand khi chọn từ). Hàm nhập vào một mảng xâu gồm các từ, và trả về số lượng từ dưới dạng số nguyên (int).
+1. int countLines(vector <string> words): Là hàm đếm số từ trong file từ có sẵn (dùng để chia rand khi chọn từ). Hàm nhập vào một mảng xâu gồm các từ, và trả về số lượng từ dưới dạng số nguyên (int).
 2. string getWord(): Là hàm lựa chọn một từ trong file từ có sẵn. Hàm trả về một từ được chọn ngẫu nhiên từ file.
 3. string runAI(): Hàm này sử dụng để Máy chọn từ một cách tự động (chỉ dùng ở chế độ 2).
 4. void endGame(): Hàm này dùng để làm thủ tục kết thúc game.
-5. string updateWord(string word, vector<int> characterLocations, char to_update): Là hàm dùng để cập nhật từ nếu đoán đúng. Hàm này cập nhật kí tự đoán đúng bằng cách thay dấu "-" ở vị trí (characterLocations) dưới dạng mảng gồm một hoặc nhiều số nguyên (tùy vào số lần xuất hiện của kí tự trong từ) bằng kí tự đó (to_update).
+5. string updateWord(string word, vector <int> characterLocations, char to_update): Là hàm dùng để cập nhật từ nếu đoán đúng. Hàm này cập nhật kí tự đoán đúng bằng cách thay dấu "-" ở vị trí (characterLocations) dưới dạng mảng gồm một hoặc nhiều số nguyên (tùy vào số lần xuất hiện của kí tự trong từ) bằng kí tự đó (to_update).
 6. bool has_only_alpha(string word): Là hàm dùng để báo sai khi kí tự được nhập vào từ (word) là một kí tự khác chữ (trừ phím 1 ở chế độ 2 là phím bấm chuông trả lời từ cần đoán).
-7. vector<int> findLocation(string sample, char findIt): Hàm này giúp tạo mảng xác định vị trí mà kí tự (findIt) được đoán đúng xuất hiện trong từ (sample).
+7. vector <int> findLocation(string sample, char findIt): Hàm này giúp tạo mảng xác định vị trí mà kí tự (findIt) được đoán đúng xuất hiện trong từ (sample).
 8. void toLower(string& word): Hàm này giúp chuẩn hóa kí tự hoa thành kí tự thường khi nhập vào để đoán từ (word).
 9. void printMax(): Hàm giúp chống tràn màn hình.
 
