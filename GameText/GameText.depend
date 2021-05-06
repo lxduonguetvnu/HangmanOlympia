@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1620312813 source:c:\users\admin\documents\code ++\duongle\gametext\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<locale>
+	<vector>
+	<ctime>
+	<algorithm>
+	<sstream>
+
