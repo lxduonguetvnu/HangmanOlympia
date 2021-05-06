@@ -57,6 +57,7 @@
 Qua file README này, em / mình xin chân thành cảm ơn:
 - Hai người thầy đã giúp đỡ em trong việc củng cố kiến thức Lý thuyết và Thực hành trong học phần INT2215 - thầy Lê Quang Hiếu và thầy Nguyễn Thanh Bình.
 - Tập thể lớp K65CB, K65C-CLC - những người đã luôn động viên và giải đáp thắc mắc của mình trong những lúc khó khăn nhất trong thời gian triển khai ý tưởng. 
+
 Một lần nữa, xin chân thành cảm ơn mọi người! 
 # Thanh Hóa, đêm ngày 6/5/2021
 # Lê Xuân Dương
