@@ -241,6 +241,7 @@ int main() {
             bool game_over = false;
 
             int num_tries = input.length() + 3;
+            cout << "The word that the computer gave was " << input.length() << " letters long." << endl;
             while ((num_tries > 0) && (game_over == false)) {
                 char letter;
                 cout << "If you would like to guess the word, press 1." << endl;
@@ -311,6 +312,7 @@ int main() {
             run = false;
         }
         else if (gameMode == "quit") {
+            printMax();
             run = false;
         }
         else {
